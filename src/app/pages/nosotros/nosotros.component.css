@@ -1,0 +1,29 @@
+.nosotros {
+  background-color: transparent;
+     padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #444;
+  }
+  
+  .nosotros h2 {
+    font-size: 2rem;
+    color: #ff6f91;
+    margin-bottom: 20px;
+  }
+  
+  .nosotros p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .img-nosotros {
+    width: 250px;
+    max-width: 90%;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  

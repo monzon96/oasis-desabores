@@ -1,0 +1,8 @@
+<div class="menu-container">
+  <app-card-producto
+    *ngFor="let prod of productos"
+    [nombre]="prod.nombre"
+    [precio]="prod.precio"
+    [imagen]="prod.imagen">
+  </app-card-producto>
+</div>

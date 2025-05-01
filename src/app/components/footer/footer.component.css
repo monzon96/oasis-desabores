@@ -1,0 +1,24 @@
+.footer {
+    background-color: #ffe4ec;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .redes {
+    margin-top: 5px;
+  }
+  
+  .redes a {
+    margin: 0 10px;
+    color: #ff5e84;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .redes a:hover {
+    text-decoration: underline;
+  }
+  
