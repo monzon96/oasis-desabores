@@ -1,13 +1,19 @@
 <nav class="navbar">
-    <div class="logo">
-      <img src="assets/imagenes/logo3.png" alt="Logo alternativo" class="hero-logo">
-      <span>Oasis de Sabores</span>
-    </div>
-    <ul class="nav-links">
-      <li><a routerLink="/">Inicio</a></li>
-      <li><a routerLink="/menu">Menú</a></li>
-      <li><a routerLink="/nosotros">Nosotros</a></li>
-      <li><a routerLink="/contacto">Contacto</a></li>
-    </ul>
-  </nav>
+  <div class="logo">
+    <img src="assets/imagenes/logo3.png" alt="Logo alternativo" class="hero-logo" />
+    <span>Oasis de Sabores</span>
+  </div>
+
+  <!-- Icono hamburguesa -->
+  <div class="menu-toggle" (click)="toggleMenu()">
+    &#9776;
+  </div>
+
+  <ul class="nav-links" [ngClass]="{ 'open': menuAbierto }">
+    <li><a routerLink="/" (click)="closeMenu()">Inicio</a></li>
+    <li><a routerLink="/menu" (click)="closeMenu()">Menú</a></li>
+    <li><a routerLink="/nosotros" (click)="closeMenu()">Nosotros</a></li>
+    <li><a routerLink="/contacto" (click)="closeMenu()">Contacto</a></li>
+  </ul>
   
+</nav>
